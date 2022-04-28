@@ -132,16 +132,24 @@ function inputHandler(event) {
       element.actor.toLowerCase().includes(event.target.value.toLowerCase()) ||
       element.name.toLowerCase().includes(event.target.value.toLowerCase())
   );
+
+  document.querySelector(".Flexbox").innerHTML = "";
+  getSortData(sort);
 }
 
-// document.querySelector("").innerHTML = "";
-//   getSortData(sort);
-// }
-// let getSortData = (sort) => {
-//   sort.forEach((element) => {
-//     cardShcool(element.symbol, element.title, element.keywords);
-//   });
-// };
+let getSortData = (sort) => {
+  sort.forEach((element) => {
+    cardShcool(
+      element.image,
+      element.name,
+      element.actor,
+      element.gender,
+      element.house,
+      element.wand,
+      element.alive
+    );
+  });
+};
 
 // let new_element = document.createElement("div"); ///main[0].append(document.createElement("p"))
 // // main_element.innerText = "Так добавить текс внутри тега p";
