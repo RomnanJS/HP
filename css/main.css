@@ -1,0 +1,119 @@
+main{
+
+
+
+}
+.inputbox{
+    width: 688px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.LableName{
+ text-align: left;
+ color: #818182;
+
+}
+
+.Labelshcool{
+ margin: 0 0   0 427px ;
+ color: #818182;
+
+}
+
+
+.inputName{
+    height: 38px;
+ width: 452px;
+ margin-top: 3px;
+border-radius: 4px;
+border: none;
+padding: 0 ;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #ABB5BE;
+
+
+
+
+
+
+
+}
+.selectShcool{
+    margin: 3px 0 0 20px ;
+    padding: 0 ;
+    height: 38px;
+    width: 216px;
+    border-radius: 4px;
+    border: none;
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color: #ABB5BE;
+
+}
+hr{
+    height: 1px;
+width: 1440px;
+background-color: #DEE2E6;
+border: none;
+margin: 40px 0 40px 0 ;
+ 
+
+}
+
+
+.Flexbox{
+    display: flex;
+    width: 688px;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    margin: 0  auto;
+    padding:0 auto;
+    align-items: center;
+    align-items: stretch;
+    
+}
+.Flexrow{ 
+
+    align-items: center;
+  width: 334px;
+}
+.namestudent{
+
+}
+.info{
+    
+}
+img{
+ width: 334px;  
+ object-fit: cover;
+ object-position:  0 -73px;
+height: 260px;
+
+}
+p{
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+
+h3{
+
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+
+}

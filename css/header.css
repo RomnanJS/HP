@@ -1,0 +1,39 @@
+ header{
+    padding: 64px 0 48px 0; 
+} 
+.container{
+    display: block;
+ margin: 0 auto;
+ width:  1440px;
+box-sizing: content-box;
+}
+.divbox{
+ width: 688px;
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+.title1{
+  
+    
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+
+    margin: 0 auto;
+    
+}
+.text1{
+  
+   
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+ text-align: left;
+ 
+ margin:  0 auto;
+    
+}

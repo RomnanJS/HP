@@ -1,0 +1,11 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./main.css");
+
+
+body { 
+    font-family: 'Inter', sans-serif;
+    background:#EDEEF3;
+    color:  #000000;
+
+}
