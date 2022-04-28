@@ -146,7 +146,7 @@ let getSortData = (sort) => {
       element.gender,
       element.house,
       element.wand,
-      element.alive
+      element.alive ? "Yes" : "No"
     );
   });
 };
