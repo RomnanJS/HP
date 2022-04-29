@@ -124,12 +124,11 @@ data.forEach((elem) =>
 );
 
 input1.addEventListener("input", (event) => inputHandler(event));
-
 function inputHandler(event) {
-  console.log(event);
+  console.log(event.target.value);
   let sort = data.filter(
     (element) =>
-      element.actor.toLowerCase().includes(event.target.value.toLowerCase()) ||
+      element.house.toLowerCase().includes(event.target.value.toLowerCase()) ||
       element.name.toLowerCase().includes(event.target.value.toLowerCase())
   );
 
@@ -150,6 +149,8 @@ let getSortData = (sort) => {
     );
   });
 };
+
+select.addEventListener("change", (event) => inputHandler(event));
 
 // let new_element = document.createElement("div"); ///main[0].append(document.createElement("p"))
 // // main_element.innerText = "Так добавить текс внутри тега p";
